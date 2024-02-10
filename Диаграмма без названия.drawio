@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T09:13:29.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15" etag="TyYFZNliHiUmb-m3KdCb" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-10T17:06:47.254Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15" etag="xozwTkvoiTtgq01p5lQf" version="23.0.2" type="github">
   <diagram name="Page-1" id="a7904f86-f2b4-8e86-fa97-74104820619b">
     <mxGraphModel dx="934" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -77,14 +77,23 @@
         <mxCell id="ROwXW8XsKwfAIt8MIKDt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ROwXW8XsKwfAIt8MIKDt-1" target="ROwXW8XsKwfAIt8MIKDt-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ROwXW8XsKwfAIt8MIKDt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ROwXW8XsKwfAIt8MIKDt-9" target="ROwXW8XsKwfAIt8MIKDt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ROwXW8XsKwfAIt8MIKDt-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;CategoriesHierarchy&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;category_id: INT&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;parent_category_id: FK&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="690" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ROwXW8XsKwfAIt8MIKDt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.136;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ROwXW8XsKwfAIt8MIKDt-9" target="ROwXW8XsKwfAIt8MIKDt-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ROwXW8XsKwfAIt8MIKDt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ROwXW8XsKwfAIt8MIKDt-12" target="ROwXW8XsKwfAIt8MIKDt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ROwXW8XsKwfAIt8MIKDt-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;Priority&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;priority_id: INT&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;priority_name: VAR(250)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;function: TEXT&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="690" width="150" height="80" as="geometry" />
+          <mxGeometry x="390" y="685" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ROwXW8XsKwfAIt8MIKDt-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;CaterogiesPriority&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;category_pririty_id: INT&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;category_id: FK&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;priority_id: FK&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="685" width="140" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
